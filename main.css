@@ -91,7 +91,7 @@ img {
 }
 
 .menu a:hover {
-    color: #73000a;
+    color: #1b5b42;
 }
 
 .social-left,
@@ -108,7 +108,7 @@ img {
 
 .social-left a:hover img,
 .social-right a:hover img {
-    filter: invert(18%) sepia(95%) saturate(1619%) hue-rotate(349deg) brightness(88%) contrast(89%);
+    filter: brightness(0) saturate(100%) invert(35%) sepia(59%) saturate(433%) hue-rotate(87deg) brightness(94%) contrast(85%);
 }
 
 .image-container {
@@ -241,7 +241,7 @@ select {
 button {
     padding: 10px;
     color: white;
-    background-color: #73000a;
+    background-color: #1b5b42;
     border: none;
     cursor: pointer;
     margin-top: 10px;
