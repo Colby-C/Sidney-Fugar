@@ -31,11 +31,11 @@
 }
 
 body {
-    background-color: white;
+    background-color: #154734;
     font-family: Piedmont;
     font-size: 30pt;
     overflow-x: hidden;
-    color: black;
+    color: #FFB81c;
 }
 
 html {
@@ -64,7 +64,7 @@ img {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: white;
+    background-color: #154734;
 }
 
 .logo {
@@ -78,7 +78,7 @@ img {
     display: flex;
     top: 0;
     z-index: 1001;
-    background-color: white;
+    background-color: #154734;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
@@ -86,12 +86,12 @@ img {
 
 .menu a {
     text-decoration: none;
-    color: black;
+    color: #FFB81c;
     transition: color 0.3s ease;
 }
 
 .menu a:hover {
-    color: #1b5b42;
+    color: white;
 }
 
 .social-left,
@@ -108,7 +108,7 @@ img {
 
 .social-left a:hover img,
 .social-right a:hover img {
-    filter: brightness(0) saturate(100%) invert(35%) sepia(59%) saturate(433%) hue-rotate(87deg) brightness(94%) contrast(85%);
+    filter: brightness(0) invert(1);
 }
 
 .image-container {
@@ -141,7 +141,7 @@ img {
     display: block;
     position: absolute;
     left: 0;
-    top: -100px;
+    /* top: -100px; */
 }
 
 .image-text {
@@ -158,13 +158,13 @@ img {
 }
 
 .image-text p {
-    color: #1b5b42;
+    color: #FFB81c;
 }
 
 .shop-section {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #FFB81c;
     text-align: center;
     justify-content: space-evenly;
     color: black;
@@ -178,11 +178,11 @@ img {
 .contact-section {
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: #154734;
     text-align: center;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #FFB81c;
     width: 100%;
     height: 120vh;
     overflow: visible;
@@ -241,7 +241,7 @@ select {
 button {
     padding: 10px;
     color: white;
-    background-color: #1b5b42;
+    background-color: #FFB81c;
     border: none;
     cursor: pointer;
     margin-top: 10px;
@@ -303,9 +303,9 @@ textarea {
         position: absolute;
         object-fit: cover;
         object-position: top;
-        top: 55%;
+        top: 61%;
         left: 40%;
-        transform: translate(-50%) scale(3);
+        transform: translate(-35%) scale(3);
     }
 
     .shop-section,
