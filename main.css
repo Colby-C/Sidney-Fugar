@@ -177,11 +177,11 @@ img {
 .contact-section {
     display: flex;
     flex-direction: column;
-    background-color: #861F41;
+    background-color: #154734;
     text-align: center;
     align-items: center;
     justify-content: center;
-    color: #E5751F;
+    color: #FFB81c;
     width: 100%;
     min-height: 100vh;
     height: auto;
